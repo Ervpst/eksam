@@ -63,74 +63,228 @@ const drawingClassPano4 = new PANOLENS.ImagePanorama(drawingClass4)
 const stairsPano1 = new PANOLENS.ImagePanorama(stairs1)
 const stairsPano2 = new PANOLENS.ImagePanorama(stairs2)
 
-
+entranceCounter1 = 0;
+entranceCounter2 = 0;
+entranceCounter3 = 0;
+entranceCounter4 = 0;
+entranceCounter5 = 0;
+entranceCounter6 = 0;
+entranceCounter7 = 0;
+entranceCounter8 = 0;
+entranceCounter9 = 0;
+entranceCounter10 = 0;
+entranceCounter11 = 0;
+entranceCounter12 = 0;
+entranceCounter13 = 0;
+entranceCounter14 = 0;
+entranceCounter15 = 0;
+entranceCounter16 = 0;
+entranceCounter17 = 0;
+entranceCounter18 = 0;
+entranceCounter19 = 0;
+entranceCounter20 = 0;
+entranceCounter21 = 0;
+entranceCounter22 = 0;
 
 // Add console log event listeners for every panorama object
 secondStartPano.addEventListener('enter-fade-start', () => {
     console.log('secondStartPano entered')
+    entranceCounter1++;
+    if (entranceCounter1 > 1){
+    console.log("Oled siin ruumis olnud " + entranceCounter1 + " korda.")
+    }else{
+      console.log("Oled siin ruumis olnud " + entranceCounter1 + " kord.")
+    }
+
   })
 secondHallPano.addEventListener('enter-fade-start', () => {
     console.log('secondHallImage1 entered')
+    entranceCounter2++;
+    if (entranceCounter2 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter2 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter2 + " kord.")
+      }
   })
 secondHallPano2.addEventListener('enter-fade-start', () => {
     console.log('secondHallImage2 entered')
+    entranceCounter3++;
+    if (entranceCounter3 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter3 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter3 + " kord.")
+      }
   })
   paintingHallPano1.addEventListener('enter-fade-start', () => {
     console.log('paintingHall1 entered')
+    entranceCounter4++;
+    if (entranceCounter4 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter4 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter4 + " kord.")
+      }
   })
   paintingHallPano2.addEventListener('enter-fade-start', () => {
     console.log('paintingHall2 entered')
+    entranceCounter5++;
+    if (entranceCounter5 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter5 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter5 + " kord.")
+      }
   })
   roomPano1.addEventListener('enter-fade-start', () => {
     console.log('room1 entered')
+    entranceCounter6++;
+    if (entranceCounter6 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter6 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter6 + " kord.")
+      }
   })
   roomPano2.addEventListener('enter-fade-start', () => {
     console.log('room2 entered')
+    entranceCounter7++;
+    if (entranceCounter7 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter7 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter7 + " kord.")
+      }
   })
   corridorPano1.addEventListener('enter-fade-start', () => {
     console.log('corrdior1 entered')
+    entranceCounter8++;
+    if (entranceCounter8 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter8 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter8 + " kord.")
+      }
   })
   corridorPano2.addEventListener('enter-fade-start', () => {
     console.log('corrdior2 entered')
+    entranceCounter9++;
+    if (entranceCounter9 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter9 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter9 + " kord.")
+      }
   })
   corridorPano3.addEventListener('enter-fade-start', () => {
     console.log('corrdior3 entered')
+    entranceCounter10++;
+    if (entranceCounter10 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter10 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter10 + " kord.")
+      }
   })
   paintingLeadPano.addEventListener('enter-fade-start', () => {
     console.log('paintingLead entered')
+    entranceCounter11++;
+    if (entranceCounter11 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter11 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter11 + " kord.")
+      }
   })
   paintingRoomPano.addEventListener('enter-fade-start', () => {
     console.log('paintingRoom entered')
+    entranceCounter12++;
+    if (entranceCounter12 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter12 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter12 + " kord.")
+      }
   })
   restoRoomPano.addEventListener('enter-fade-start', () => {
     console.log('restoRoom entered')
+    entranceCounter13++;
+    if (entranceCounter13 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter13 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter13 + " kord.")
+      }
   })
   restoRoomPano2.addEventListener('enter-fade-start', () => {
     console.log('restoRoom2 entered')
+    entranceCounter14++;
+    if (entranceCounter14 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter14 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter14 + " kord.")
+      }
   })
   terrassPano1.addEventListener('enter-fade-start', () => {
     console.log('terrass1 entered')
+    entranceCounter15++;
+    if (entranceCounter15 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter15 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter15 + " kord.")
+      }
   })
   terrassPano2.addEventListener('enter-fade-start', () => {
     console.log('terrass2 entered')
+    entranceCounter16++;
+    if (entranceCounter16 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter16 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter16 + " kord.")
+      }
   })
   drawingClassPano1.addEventListener('enter-fade-start', () => {
     console.log('drawingClass1 entered')
+    entranceCounter17++;
+    if (entranceCounter17 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter17 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter17 + " kord.")
+      }
   })
   drawingClassPano2.addEventListener('enter-fade-start', () => {
     console.log('drawingClass2 entered')
+    entranceCounter18++;
+    if (entranceCounter18 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter18 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter18 + " kord.")
+      }
   })
   drawingClassPano3.addEventListener('enter-fade-start', () => {
     console.log('drawingClass3 entered')
+    entranceCounter19++;
+    if (entranceCounter19 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter19 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter19 + " kord.")
+      }
   })
   drawingClassPano4.addEventListener('enter-fade-start', () => {
     console.log('drawingClass4 entered')
+    entranceCounter20++;
+    if (entranceCounter20 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter20 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter20 + " kord.")
+      }
   })
   stairsPano1.addEventListener('enter-fade-start', () => {
     console.log('stairs1 entered')
+    entranceCounter21++;
+    if (entranceCounter21 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter21 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter21 + " kord.")
+      }
   })
   stairsPano2.addEventListener('enter-fade-start', () => {
     console.log('stairs2 entered')
+    entranceCounter22++;
+    if (entranceCounter22 > 1){
+      console.log("Oled siin ruumis olnud " + entranceCounter22 + " korda.")
+      }else{
+        console.log("Oled siin ruumis olnud " + entranceCounter22 + " kord.")
+      }
   })
 
 
